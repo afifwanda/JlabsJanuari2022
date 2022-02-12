@@ -1,0 +1,1 @@
+{"uuid":"fb3f621c-383d-4acb-80d2-6aa7f9050093","name":"qaautomation.tugasqa.BaseWebTest.quitChromeDriver","description":"","start":1644392660203,"stop":1644392660291,"children":["391e7357-8c41-4e8a-b67b-a711b4f6e045"],"afters":[{"name":"quitChromeDriver","status":"passed","stage":"finished","description":"","start":1644392660204,"stop":1644392660291}]}

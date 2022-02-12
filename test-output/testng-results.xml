@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T06:28:08Z" name="Default suite" finished-at="2022-02-11T06:28:16Z" duration-ms="7932">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T06:28:08Z" name="Default test" finished-at="2022-02-11T06:28:16Z" duration-ms="7932">
+      <class name="qaautomation.tugas4.Tugas4">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.tugas4.Tugas4@78d6692f]" started-at="2022-02-11T06:28:08Z" name="createChromeDriver" finished-at="2022-02-11T06:28:14Z" duration-ms="5405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testEmail()[pri:0, instance:qaautomation.tugas4.Tugas4@78d6692f]" started-at="2022-02-11T06:28:14Z" name="testEmail" finished-at="2022-02-11T06:28:16Z" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmail -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.tugas4.Tugas4@78d6692f]" started-at="2022-02-11T06:28:16Z" name="quitChromeDriver" finished-at="2022-02-11T06:28:16Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.tugas4.Tugas4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
