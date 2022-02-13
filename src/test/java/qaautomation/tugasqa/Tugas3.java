@@ -1,5 +1,7 @@
 package qaautomation.tugasqa;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -26,7 +28,7 @@ public class Tugas3 extends BaseWebTest
 		
 		System.out.println(actualText);
 		
-		Assert.assertTrue(actualText.contains(expectedText));
+		AssertJUnit.assertTrue(actualText.contains(expectedText));
 	}
 	
 	@Test
@@ -43,7 +45,7 @@ public class Tugas3 extends BaseWebTest
 		
 		System.out.println(actualText);
 		
-		Assert.assertTrue(actualText.contains(expectedText));
+		AssertJUnit.assertTrue(actualText.contains(expectedText));
 	}
 	
 	@Test
@@ -64,7 +66,7 @@ public class Tugas3 extends BaseWebTest
 		
 		System.out.println(actualText);
 		
-		Assert.assertTrue(actualText.contains(expectedText));
+		AssertJUnit.assertTrue(actualText.contains(expectedText));
 	}
 	
 	@Test
@@ -86,7 +88,7 @@ public class Tugas3 extends BaseWebTest
 		
 		System.out.println(actualText);
 		
-		Assert.assertTrue(actualText.contains(expectedText));
+		AssertJUnit.assertTrue(actualText.contains(expectedText));
 	}
 	
 	
