@@ -1,5 +1,6 @@
 package qaautomation.tugas4;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
