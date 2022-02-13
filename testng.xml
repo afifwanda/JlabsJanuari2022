@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="qaautomation.tugasqa.Tugas3"/>
-	  <class name="qaautomation.tugasqa.Tugas4"/>
+	  <class name="qaautomation.tugas4.Tugas4"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
