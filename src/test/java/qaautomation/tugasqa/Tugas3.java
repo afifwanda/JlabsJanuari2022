@@ -34,7 +34,6 @@ public class Tugas3 extends BaseWebTest
 	@Test
 	public void negativeTest() {
 		String username = "tomsmith";
-		String usernameaa = "tomsmith";
 		String password = "SuperSecretPassword";
 		
 		driver.get().findElement(By.xpath("//input[@id='username']")).sendKeys(username);

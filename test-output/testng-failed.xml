@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qaautomation.tugas4.Tugas4">
+      <class name="qaautomation.tugas5.APITest">
         <methods>
-          <include name="quitChromeDriver"/>
-          <include name="testEmail"/>
-          <include name="createChromeDriver"/>
+          <include name="registerTest"/>
         </methods>
-      </class> <!-- qaautomation.tugas4.Tugas4 -->
+      </class> <!-- qaautomation.tugas5.APITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
