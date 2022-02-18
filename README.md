@@ -6,18 +6,18 @@ This repo is about tasks that i've been completed in QA Automation Bootcamp, Bat
 
 To check or run each task, on /src there are 2 folders. main/java and test/java/qaautomation
 
-**on main/java folder you can access :
+**on main/java folder you can access :**
 - tugas 1 
 - tugas 2
 - tugas 3
 - tugas 4
 
-**on test/java/qaautomation folder you can access :
+**on test/java/qaautomation folder you can access :**
 - tugas 3
 - tugas 4
 - tugas 5
 
-*you can run tugas 1 and 2 inside main/java folder, yet you have to run tugas 3,4,5 on test/java folder.
+*you can run tugas 1 and 2 inside main/java folder, yet you have to run tugas 3,4,5 on test/java folder.*
 
 ### Prerequisite
 
