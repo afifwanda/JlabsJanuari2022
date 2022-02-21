@@ -17,11 +17,11 @@ To check or run each task, on /src there are 2 folders. main/java and test/java/
 - tugas 4
 - tugas 5
 
+*you can run tugas 1 and 2 inside main/java folder, yet you have to run tugas 3,4,5 on test/java folder.*
+
 **There are special folder on this repo. this folder contains tugas 7**
 
 - *you need to launch jmeter to run this task. this folder is also contains report of the test. you access that by click index.html*
-
-*you can run tugas 1 and 2 inside main/java folder, yet you have to run tugas 3,4,5 on test/java folder.*
 
 ### Prerequisite
 
