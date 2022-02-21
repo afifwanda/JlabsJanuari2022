@@ -17,6 +17,9 @@ To check or run each task, on /src there are 2 folders. main/java and test/java/
 - tugas 4
 - tugas 5
 
+**There are special folder on this repo. this folder contains tugas 7**
+*you need to launch jmeter to run this task. this folder is also contains report of the test. you access that by click index.html*
+
 *you can run tugas 1 and 2 inside main/java folder, yet you have to run tugas 3,4,5 on test/java folder.*
 
 ### Prerequisite
@@ -39,6 +42,7 @@ to run the test (task 3, 4 and 5) here are the steps :
 * [Selenium](https://www.selenium.dev/) - Used to automate web testing
 * [TestNG](https://testng.org/doc/) - Test Management
 * [RestAssured](https://rest-assured.io/) - Automated REST Testing
+* [JMeter](https://jmeter.apache.org/) - Load Test Software
 
 ## Authors
 
