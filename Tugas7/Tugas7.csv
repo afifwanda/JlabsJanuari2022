@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1645455391759,1270,/login,200,OK,Tugas7 1-3,text,true,,574,277,4,4,https://kolakproject.herokuapp.com/login,1270,0,929
+1645455389904,3085,/login,200,OK,Tugas7 1-1,text,true,,574,277,4,4,https://kolakproject.herokuapp.com/login,3080,0,2718
+1645455390762,2293,/login,200,OK,Tugas7 1-2,text,true,,574,277,4,4,https://kolakproject.herokuapp.com/login,2293,0,1995
+1645455393034,260,/kolakup,200,OK,Tugas7 1-1,text,true,,335,524,4,4,https://kolakproject.herokuapp.com/me/kolak/up,260,0,0
+1645455393032,272,/kolakup,200,OK,Tugas7 1-3,text,true,,335,524,3,3,https://kolakproject.herokuapp.com/me/kolak/up,272,0,0
+1645455393056,362,/kolakup,200,OK,Tugas7 1-2,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,362,0,0
+1645455392759,1331,/login,200,OK,Tugas7 1-4,text,true,,574,277,2,2,https://kolakproject.herokuapp.com/login,1331,0,1047
+1645455394091,274,/kolakup,200,OK,Tugas7 1-4,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,274,0,0
+1645455393763,1162,/login,200,OK,Tugas7 1-5,text,true,,574,277,2,2,https://kolakproject.herokuapp.com/login,1162,0,826
+1645455394926,287,/kolakup,200,OK,Tugas7 1-5,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,287,0,0
+1645455394765,1161,/login,200,OK,Tugas7 1-6,text,true,,574,277,2,2,https://kolakproject.herokuapp.com/login,1161,0,847
+1645455395927,286,/kolakup,200,OK,Tugas7 1-6,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,286,0,0
+1645455395764,1070,/login,200,OK,Tugas7 1-7,text,true,,574,277,2,2,https://kolakproject.herokuapp.com/login,1069,0,799
+1645455396835,265,/kolakup,200,OK,Tugas7 1-7,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,265,0,0
+1645455396764,1284,/login,200,OK,Tugas7 1-8,text,true,,574,277,2,2,https://kolakproject.herokuapp.com/login,1283,0,982
+1645455398049,289,/kolakup,200,OK,Tugas7 1-8,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,289,0,0
+1645455397761,1309,/login,200,OK,Tugas7 1-9,text,true,,574,277,2,2,https://kolakproject.herokuapp.com/login,1309,0,995
+1645455399070,311,/kolakup,200,OK,Tugas7 1-9,text,true,,335,524,2,2,https://kolakproject.herokuapp.com/me/kolak/up,311,0,0
+1645455398760,1214,/login,200,OK,Tugas7 1-10,text,true,,574,277,1,1,https://kolakproject.herokuapp.com/login,1214,0,938
+1645455399975,285,/kolakup,200,OK,Tugas7 1-10,text,true,,335,524,1,1,https://kolakproject.herokuapp.com/me/kolak/up,285,0,0

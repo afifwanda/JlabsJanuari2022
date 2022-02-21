@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-18T13:42:55Z" name="Default suite" finished-at="2022-02-18T13:42:58Z" duration-ms="3062">
+  <suite started-at="2022-02-18T14:56:47Z" name="Default suite" finished-at="2022-02-18T14:57:34Z" duration-ms="46169">
     <groups>
     </groups>
-    <test started-at="2022-02-18T13:42:55Z" name="Default test" finished-at="2022-02-18T13:42:58Z" duration-ms="3062">
-      <class name="qaautomation.tugas5.APITest">
-        <test-method signature="registerTest()[pri:0, instance:qaautomation.tugas5.APITest@3f048c86]" started-at="2022-02-18T13:42:55Z" name="registerTest" finished-at="2022-02-18T13:42:58Z" duration-ms="2936" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [503] but found [201]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [503] but found [201]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:652)
-at org.testng.Assert.assertEquals(Assert.java:662)
-at qaautomation.tugas5.APITest.registerTest(APITest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2022-02-18T14:56:47Z" name="Default test" finished-at="2022-02-18T14:57:34Z" duration-ms="46169">
+      <class name="qaautomation.tugas3.Tugas3">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:56:47Z" name="createChromeDriver" finished-at="2022-02-18T14:57:00Z" duration-ms="12832" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-      </class> <!-- qaautomation.tugas5.APITest -->
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="logoutTest()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:00Z" name="logoutTest" finished-at="2022-02-18T14:57:03Z" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:03Z" name="quitChromeDriver" finished-at="2022-02-18T14:57:03Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:03Z" name="createChromeDriver" finished-at="2022-02-18T14:57:15Z" duration-ms="12532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="negativeTest()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:15Z" name="negativeTest" finished-at="2022-02-18T14:57:16Z" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:16Z" name="quitChromeDriver" finished-at="2022-02-18T14:57:16Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:16Z" name="createChromeDriver" finished-at="2022-02-18T14:57:27Z" duration-ms="10952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="negativeTestRefactor()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:27Z" name="negativeTestRefactor" finished-at="2022-02-18T14:57:28Z" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestRefactor -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:28Z" name="quitChromeDriver" finished-at="2022-02-18T14:57:28Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:28Z" name="createChromeDriver" finished-at="2022-02-18T14:57:33Z" duration-ms="4516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="test()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:33Z" name="test" finished-at="2022-02-18T14:57:34Z" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.tugas3.Tugas3@492691d7]" started-at="2022-02-18T14:57:34Z" name="quitChromeDriver" finished-at="2022-02-18T14:57:34Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.tugas3.Tugas3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
