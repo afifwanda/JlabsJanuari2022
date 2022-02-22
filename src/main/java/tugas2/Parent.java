@@ -2,29 +2,29 @@ package tugas2;
 
 public class Parent {
 	
-	public static int addNumbers (int n1, int n2) {
-		int result = 0;
+	public int addNumbers (String n1, String n2) {
+		int result = Integer.parseInt(n1) + Integer.parseInt(n2);
 		try {
-			result = n1 + n2;
-			StaticMethod.checkInteger(result);
-		} catch (Exception e) {
-			// TODO: handle exception
-			System.out.println("error !");
+			if(!StaticMethod.checkInteger(result)) {
+				throw new IllegalArgumentException("negative numbers are not allowed!");
+			};
+			System.out.println(result);
+		} catch (IllegalArgumentException e) {
+			throw e;
 		}
-		System.out.println(result);
 		return result;
 	}
 	
-	public static int subtractNumbers (int n1, int n2) {
-		int result = 0;
+	public int subtractNumbers (String n1, String n2) {
+		int result = Integer.parseInt(n1) - Integer.parseInt(n2);
 		try {
-			result = n1 - n2;
-			StaticMethod.checkInteger(result);
-		} catch (Exception e) {
-			// TODO: handle exception
-			System.out.println("error !");
+			if(!StaticMethod.checkInteger(result)) {
+				throw new IllegalArgumentException("negative numbers are not allowed!");
+			};
+			System.out.println(result);
+		} catch (IllegalArgumentException e) {
+			throw e;
 		}
-		System.out.println(result);
 		return result;
 	}
 
